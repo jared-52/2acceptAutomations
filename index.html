@@ -89,7 +89,7 @@ function signatureHtml(person){
           </td>
         </tr>
 
-        <!-- Direct -->
+        <!-- Support -->
         <tr>
           <td style="padding-right:8px;vertical-align:middle;padding-bottom:6px;">
             <img src="${ASSETS.phone}" alt="Phone" style="height:15px;width:15px;">
@@ -97,17 +97,6 @@ function signatureHtml(person){
           <td style="font-size:13px;color:#4A4A4A;vertical-align:middle;padding-bottom:6px;">
             <span style="font-weight:600;">Direct:</span>
             <a href="tel:${directDigits}" style="text-decoration:none;color:#4A4A4A;">${person.phone}</a>
-          </td>
-        </tr>
-
-        <!-- Office (toll-free with extension) -->
-        <tr>
-          <td style="padding-right:8px;vertical-align:middle;">
-            <img src="${ASSETS.phone}" alt="Office" style="height:15px;width:15px;">
-          </td>
-          <td style="font-size:13px;color:#4A4A4A;vertical-align:middle;">
-            <span style="font-weight:600;">Office:</span>
-            <a href="tel:${officeDigits};ext=${OFFICE_EXT}" style="text-decoration:none;color:#4A4A4A;">${OFFICE_PHONE} x${OFFICE_EXT}</a>
           </td>
         </tr>
       </table>
