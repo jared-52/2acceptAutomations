@@ -37,7 +37,7 @@ const OFFICE_EXT   = "703";
 
 /*** 2) TEAM DATA — only Kirk ***/
 const TEAM = [
-  { name: "Kirk Fredrickson", email: "kirk@2accept.net", phone: "818-674-7480", website: "https://www.2accept.com" }
+  { name: "2Accept", email: "support@2accept.com", phone: "888-839-2081", website: "https://www.2accept.com" }
 ];
 
 /*** 3) Signature HTML (full size) ***/
