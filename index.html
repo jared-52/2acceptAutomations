@@ -69,6 +69,17 @@ function signatureHtml(person){
           </td>
         </tr>
 
+        <!-- Direct -->
+        <tr>
+          <td style="padding-right:8px;vertical-align:middle;padding-bottom:6px;">
+            <img src="${ASSETS.phone}" alt="Phone" style="height:15px;width:15px;">
+          </td>
+          <td style="font-size:13px;color:#4A4A4A;vertical-align:middle;padding-bottom:6px;">
+            <span style="font-weight:600;">Support:</span>
+            <a href="tel:${directDigits}" style="text-decoration:none;color:#4A4A4A;">${person.phone}</a>
+          </td>
+        </tr>
+
         <!-- Email -->
         <tr>
           <td style="padding-right:8px;vertical-align:middle;padding-bottom:6px;">
@@ -86,17 +97,6 @@ function signatureHtml(person){
           </td>
           <td style="font-size:13px;color:#4A4A4A;vertical-align:middle;padding-bottom:6px;">
             <a href="${person.website}" style="text-decoration:none;color:#4A4A4A;">${websiteText}</a>
-          </td>
-        </tr>
-
-        <!-- Direct -->
-        <tr>
-          <td style="padding-right:8px;vertical-align:middle;padding-bottom:6px;">
-            <img src="${ASSETS.phone}" alt="Phone" style="height:15px;width:15px;">
-          </td>
-          <td style="font-size:13px;color:#4A4A4A;vertical-align:middle;padding-bottom:6px;">
-            <span style="font-weight:600;">Support:</span>
-            <a href="tel:${directDigits}" style="text-decoration:none;color:#4A4A4A;">${person.phone}</a>
           </td>
         </tr>
       </table>
